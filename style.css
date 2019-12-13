@@ -232,15 +232,14 @@ li{
     top: 68vh;
 }
 
-.art2-img {
-    left: 62.5vw;
-}
+
 
 select {
     height: 35px;
-    min-width: 150px;
+    min-width: 180px;
     border-radius: 6px;
     font-size: 12px;
+    margin-right: 30px;
 }
 
 .cover-logo {
@@ -353,4 +352,9 @@ button:hover{
 
 .img-select {
     display:flex;
+}
+
+.space {
+    min-width: 150px;
+    margin-right: 30px;
 }
