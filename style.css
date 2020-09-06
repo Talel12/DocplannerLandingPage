@@ -55,8 +55,8 @@ h1{
 }
 
 .main-logo {
-    width: 4%;
-    height: 5vh;
+    width: 4vw;
+    height: 4vw;
 }
 
 .main-p-container {
@@ -104,21 +104,22 @@ h1{
 
 .cover-container {
     background-color: #dbf8f6;
-    height: 70vh;
+    height: 43vw;
     padding: 0px 15vw 0px 7vw;
     display: flex;
+    overflow: hidden;
 }
 
 .discription-container {
-    height: 32vh;
+    max-height: 32vh;
     margin: 0px 15vw;
     text-align: center;
-    padding: 5vh 18vw 0px 18vw;
+    padding: 5vh 10vw 50px 10vw;
     line-height: 25px;
 }
 
 .galerie {
-    height: 90vh;
+    height: 60vw;
     margin: 0px 15vw;
     display: flex;
     flex-flow: wrap;
@@ -135,8 +136,8 @@ footer {
 
 .cover-div1 {
     flex-grow: 1;
-    width: 50%
-    padding: 10vh 5vh 0px 0px;
+    width: 50%;
+    padding: 30px 4vw 0px 0px;
 }
 
 .cover-div2 {
@@ -151,7 +152,9 @@ footer {
     width: 25%;
     flex-grow: 1;
     padding-left: 2vw;
+    font-size:1vw;
 }
+
 
 .main-1-footer-div2 {
     flex-grow: 5;
@@ -172,9 +175,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
 }
-li{
-    
-}
+
 .art1 {
     background-color: #00ccb1;
 }
@@ -186,10 +187,11 @@ li{
 .h2-dicrpt {
     padding-bottom: 10px;
     line-height: 40px;
+    font-size: 2.5vw;
 }
 
 .p-discrpt {
-    font-size: 14px;
+    font-size: 1.4vw;
     color: #888;
 }
 
@@ -206,17 +208,18 @@ li{
 }
 
 .cover-h1-div1 {
-    padding-left: 8.5vw;
-    padding-top: 6vh;
-    line-height: 40px;
+    padding-left: 5vw;
+    padding-top:20px;
+    line-height: 3vw;
+    font-size: 2.5vw;
 }
 
 .cover-p-div1 {
-    padding-left: 8.5vw;
-    padding-right: 10vw;
-    line-height: 30px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    line-height: 2vw;
     color: #778;
-    font-size: 14px;
+    font-size: 1vw;
 }
 
 .art-p {
@@ -225,6 +228,7 @@ li{
 
 .art-h2 {
     color:white;
+    min-height: 8vw;
 }
 
 .art-img {
@@ -232,6 +236,14 @@ li{
     top: 68vh;
 }
 
+.flex-box{
+display: flex;
+}
+
+
+.white-space{
+min-width: 190px;
+}
 
 
 select {
@@ -243,8 +255,8 @@ select {
 }
 
 .cover-logo {
-    position: absolute;
-    width: 35vw;
+    /* position: absolute; */
+    width: 30vw;
     left: 5vw;
     clip: rect(0px,35vw,40.2vh,0px);
 }
@@ -260,7 +272,7 @@ a{
     text-decoration: none;
 }
 .galerie-part {
-    height: 42vh; 
+    height: 28vw; 
     width: 32%;
     background-color: white;
     border-radius: 10px;
@@ -276,13 +288,14 @@ a{
 /*    padding-left: 20px;*/
     color: #aaa;
     display: inline;
+    font-size: 2vw;
 }
 
 button {
     display:inline-block;
     width: 9vw;
     height: 30px;
-    font-size: 11px;
+    font-size: 0.9vw;
     border-radius: 5px;
     background-color: #3e83e0;
     border: 0px;
@@ -296,6 +309,7 @@ button:hover{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-size: 1vw;
 }
 
 .galerie-part:hover {
@@ -315,16 +329,16 @@ button:hover{
 .cover-div2-container {
     display: flex;
     flex-direction: column;
-    padding: 1vh 0vw 1vh 1vw;
+    padding: 1vw 0vw 1vw 1vw;
 }
 
 .cover-div2-element {
     width: 14vw;
-    height: 25vh;
+    height: 12vw;
     margin-bottom: 20px;
     background-color: white;
     text-align: center;
-    padding: 20px 10px;
+    padding: 3vw 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -332,9 +346,16 @@ button:hover{
     box-shadow: 0px 1px 20px 10px rgba(0,0,0,0.03);
 }
 
-.cover-element1 {
-    
+.cover-div2-element h2 {
+    font-size: 1.5vw;
 }
+.cover-div2-element p{
+    font-size: 1vw;
+
+}
+/* .cover-element1 {
+    
+} */
 
 .div2-container1-cover {
     justify-content: flex-end;
