@@ -272,7 +272,7 @@ a{
     text-decoration: none;
 }
 .galerie-part {
-    height: 26vw; 
+    height: 28vw; 
     width: 32%;
     background-color: white;
     border-radius: 10px;
@@ -288,7 +288,7 @@ a{
 /*    padding-left: 20px;*/
     color: #aaa;
     display: inline;
-    font-size: 1.5vw;
+    font-size: 2vw;
 }
 
 button {
